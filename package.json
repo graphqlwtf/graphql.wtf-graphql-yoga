@@ -1,0 +1,18 @@
+{
+  "name": "graphql.wtf-graphql-yoga",
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@envelop/graphql-jit": "2.0.0",
+    "@graphql-tools/schema": "8.3.1",
+    "graphql": "16.2.0",
+    "graphql-yoga": "2.0.0-alpha.7",
+    "node-fetch": "2.6.6"
+  },
+  "devDependencies": {
+    "ts-node": "10.4.0",
+    "typescript": "4.5.4"
+  }
+}
